@@ -5,7 +5,7 @@ public class EsercizioSei {
         byte eta = (byte) ((byte) (annoAttuale + annoNascita) + 1);
 
         System.out.println("Il numero dei tuoi anni +1 è un numero pari?");
-        String isPari = (eta % 2 == 0) ? "Il numero è pari" : "Il numero è dispari";
+        String isPari = ((eta % 2 == 0) + 1) ? "Il numero è pari" : "Il numero è dispari";
         System.out.println(isPari);
     }
 }
